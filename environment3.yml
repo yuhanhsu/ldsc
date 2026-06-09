@@ -2,15 +2,12 @@ name: ldsc
 channels:
   - conda-forge
   - bioconda
+  - nodefaults
 dependencies:
-  - python
-  - bitarray
-  - pynose 
-  - pybedtools
-  - pip
-  - flask
-  - requests
-  - pip:
-      - numpy
-      - pandas
-      - scipy
+  - python=3.13
+  - bitarray>=3.0.0
+  - pynose>=0.5.0
+  - pybedtools>=0.10.0
+  - numpy>=2.1.0
+  - pandas>=2.2.3
+  - scipy>=1.14.1
