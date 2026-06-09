@@ -4,7 +4,7 @@ channels:
   - bioconda
 dependencies:
   - python=3.13
-  - bitarray
+  - bitarray>=2.9.3
   - pynose 
   - pybedtools
   - pip
