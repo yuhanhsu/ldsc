@@ -4,13 +4,12 @@ channels:
   - bioconda
 dependencies:
   - python=3.13
-  - bitarray=2
-  - nose=1.3
+  - bitarray
+  - pynose 
   - pybedtools
   - pip
   - flask
   - requests
-  - nose=1.3
   - pip:
       - numpy==2.4.3
       - pandas==2.3.3
