@@ -3,14 +3,14 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - python=3.13
-  - bitarray>=2.9.3
+  - python
+  - bitarray
   - pynose 
-  - pybedtools>=0.12.0
+  - pybedtools
   - pip
   - flask
   - requests
   - pip:
-      - numpy==2.4.3
-      - pandas==2.3.3
-      - scipy==1.15.0
+      - numpy
+      - pandas
+      - scipy
